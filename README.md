@@ -45,7 +45,7 @@ O en una sola línea:
 pip install numpy pandas matplotlib scikit-learn tensorflow
 ```
 
-#Instrucciones de Ejecución
+## Instrucciones de Ejecución
 
 1. Clona este repositorio:
 ```
@@ -64,7 +64,7 @@ pip install numpy pandas matplotlib scikit-learn tensorflow
 jupyter notebook ML_Project_LSTM.ipynb
 ```
 
-#Resultados
+## Resultados
 El notebook genera predicciones sobre precios futuros y las compara con los valores reales. Incluye visualizaciones y métricas como:
 
 - RMSE (Root Mean Square Error)
@@ -73,7 +73,7 @@ El notebook genera predicciones sobre precios futuros y las compara con los valo
 
 - Precisión direccional (aciertos al predecir si el precio sube o baja)
 
-#Mejoras Posibles
+## Mejoras Posibles
 - Incluir más variables (volumen, indicadores técnicos, sentimiento de noticias).
 
 - Ajustar hiperparámetros (capas, neuronas, tasa de aprendizaje, epochs).
@@ -82,7 +82,7 @@ El notebook genera predicciones sobre precios futuros y las compara con los valo
 
 - Validación cruzada temporal.
 
-#Advertencia
+## Advertencia
 Este proyecto es únicamente con fines académicos y educativos. No constituye asesoría financiera ni recomendación de inversión.
 
 #Autor
