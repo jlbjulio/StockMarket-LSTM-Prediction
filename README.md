@@ -64,28 +64,28 @@ pip install numpy pandas matplotlib scikit-learn tensorflow
 jupyter notebook ML_Project_LSTM.ipynb
 ```
 
-Resultados
+#Resultados
 El notebook genera predicciones sobre precios futuros y las compara con los valores reales. Incluye visualizaciones y métricas como:
 
-RMSE (Root Mean Square Error)
+- RMSE (Root Mean Square Error)
 
-R² (Coeficiente de determinación)
+- R² (Coeficiente de determinación)
 
-Precisión direccional (aciertos al predecir si el precio sube o baja)
+- Precisión direccional (aciertos al predecir si el precio sube o baja)
 
-Mejoras Posibles
-Incluir más variables (volumen, indicadores técnicos, sentimiento de noticias).
+#Mejoras Posibles
+- Incluir más variables (volumen, indicadores técnicos, sentimiento de noticias).
 
-Ajustar hiperparámetros (capas, neuronas, tasa de aprendizaje, epochs).
+- Ajustar hiperparámetros (capas, neuronas, tasa de aprendizaje, epochs).
 
-Probar arquitecturas híbridas (CNN+LSTM, Transformer para series temporales).
+- Probar arquitecturas híbridas (CNN+LSTM, Transformer para series temporales).
 
-Validación cruzada temporal.
+- Validación cruzada temporal.
 
-Advertencia
+#Advertencia
 Este proyecto es únicamente con fines académicos y educativos. No constituye asesoría financiera ni recomendación de inversión.
 
-Autor
+#Autor
 Julio Lara
 Estudiante de Ingeniería en Sistemas y Computación
 Universidad Tecnológica de Panamá (UTP)
