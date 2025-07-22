@@ -33,35 +33,36 @@ El notebook incluye:
 
 Instala las siguientes dependencias antes de ejecutar el proyecto:
 
+```
 pip install numpy
 pip install pandas
 pip install matplotlib
 pip install scikit-learn
 pip install tensorflow
-
+```
 O en una sola línea:
-
+```
 pip install numpy pandas matplotlib scikit-learn tensorflow
-
+```
 
 #Instrucciones de Ejecución
 
 1. Clona este repositorio:
-
+```
 git clone https://github.com/tu-usuario/StockMarket-LSTM-Prediction.git
-
+```
 2. Ve al directorio del proyecto:
-
+```
 cd StockMarket-LSTM-Prediction
-
+```
 3. Instala dependencias (si no lo hiciste ya):
-
+```
 pip install numpy pandas matplotlib scikit-learn tensorflow
-
+```
 4. Abre el notebook:
-
+```
 jupyter notebook ML_Project_LSTM.ipynb
-
+```
 
 Resultados
 El notebook genera predicciones sobre precios futuros y las compara con los valores reales. Incluye visualizaciones y métricas como:
