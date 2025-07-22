@@ -85,7 +85,7 @@ El notebook genera predicciones sobre precios futuros y las compara con los valo
 ## Advertencia
 Este proyecto es únicamente con fines académicos y educativos. No constituye asesoría financiera ni recomendación de inversión.
 
-#Autor
+## Autor
 Julio Lara
 Estudiante de Ingeniería en Sistemas y Computación
 Universidad Tecnológica de Panamá (UTP)
