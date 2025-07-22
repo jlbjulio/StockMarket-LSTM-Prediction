@@ -87,7 +87,7 @@ This project is for academic and educational purposes only. It does not constitu
 
 ## Author
 
-This repository was developed as part of the course **Aprendizaje Automático** by **Julio Lara**, from the **Ingeniería en Sistemas/Tecnología** program at the **Universidad Tecnológica de Panamá (UTP)**.
+This repository was developed as part of the course **Aprendizaje Automático** by **Julio Lara**, from the **Licenciatura en Ingeniería de Sistemas y Computación** career at the **Universidad Tecnológica de Panamá (UTP)**.
 
 ---
 
