@@ -1,19 +1,19 @@
 # StockMarket-LSTM-Prediction
 
-Este proyecto consiste en la predicción del mercado bursátil utilizando redes neuronales LSTM (Long Short-Term Memory), aplicadas sobre series temporales de datos financieros. Fue desarrollado como parte de un proyecto académico de la materia **Aprendizaje Automático** de la Universidad Tecnológica de Panamá (UTP).
+This project focuses on stock market prediction using LSTM (Long Short-Term Memory) neural networks, applied to time series of financial data. It was developed as part of an academic project for the course **Aprendizaje Automático** at the **Universidad Tecnológica de Panamá (UTP)**.
 
-## Descripción
+## Description
 
-El objetivo del proyecto es construir un modelo que permita predecir precios futuros del mercado de valores a partir de datos históricos. Se utilizan técnicas de Deep Learning, especialmente redes LSTM, por su capacidad para capturar patrones secuenciales y dependencias de largo plazo en series temporales.
+The goal of this project is to build a model capable of predicting future stock market prices based on historical data. Deep Learning techniques are used, especially LSTM networks, due to their ability to capture sequential patterns and long-term dependencies in time series.
 
-El notebook incluye:
-- Preparación de datos (normalización, creación de secuencias, divisiones de entrenamiento y prueba).
-- Construcción del modelo LSTM.
-- Entrenamiento y evaluación.
-- Visualización de predicciones.
-- Cálculo de métricas de rendimiento.
+The notebook includes:
+- Data preparation (normalization, sequence creation, train-test split).
+- LSTM model construction.
+- Training and evaluation.
+- Prediction visualization.
+- Performance metrics calculation.
 
-## Tecnologías y Herramientas
+## Technologies and Tools
 
 - Python 3.x  
 - Jupyter Notebook  
@@ -23,15 +23,16 @@ El notebook incluye:
 - Scikit-learn  
 - TensorFlow / Keras  
 
-## Contenido del Proyecto
+## Project Contents
 
-- `ML_Project_LSTM.ipynb`: Notebook principal con todo el flujo del proyecto.
-- Este `README.md` con la documentación completa.
-- Los datos pueden ser cargados desde fuentes externas (CSV, APIs financieras) o simulados dentro del notebook.
+- `ML_Project_LSTM.ipynb`: Main notebook containing the full project workflow.
+- This `README.md` with full documentation.
+- The data can be loaded from external sources (CSV, financial APIs) or simulated within the notebook.
 
-## Requerimientos
 
-Instala las siguientes dependencias antes de ejecutar el proyecto:
+## Requirements
+
+Install the following dependencies before running the project:
 
 ```
 pip install numpy
@@ -40,51 +41,51 @@ pip install matplotlib
 pip install scikit-learn
 pip install tensorflow
 ```
-O en una sola línea:
+Or in a single line:
 ```
 pip install numpy pandas matplotlib scikit-learn tensorflow
 ```
 
-## Instrucciones de Ejecución
+## Execution Instructions
 
-1. Clona este repositorio:
+1. Clone this repository:
 ```
 git clone https://github.com/tu-usuario/StockMarket-LSTM-Prediction.git
 ```
-2. Ve al directorio del proyecto:
+2. Navigate to the project directory:
 ```
 cd StockMarket-LSTM-Prediction
 ```
-3. Instala dependencias (si no lo hiciste ya):
+3. Install dependencies (if not done yet):
 ```
 pip install numpy pandas matplotlib scikit-learn tensorflow
 ```
-4. Abre el notebook:
+4. Open the notebook:
 ```
 jupyter notebook ML_Project_LSTM.ipynb
 ```
 
-## Resultados
-El notebook genera predicciones sobre precios futuros y las compara con los valores reales. Incluye visualizaciones y métricas como:
 
-- RMSE (Root Mean Square Error)
+## Results
 
-- R² (Coeficiente de determinación)
+The notebook generates predictions of future prices and compares them with actual values. It includes visualizations and metrics such as:
 
-- Precisión direccional (aciertos al predecir si el precio sube o baja)
+- RMSE (Root Mean Square Error)  
+- R² (Coefficient of Determination)  
+- Directional Accuracy (correctly predicting price movement up or down)
 
-## Mejoras Posibles
-- Incluir más variables (volumen, indicadores técnicos, sentimiento de noticias).
+## Possible Improvements
 
-- Ajustar hiperparámetros (capas, neuronas, tasa de aprendizaje, epochs).
+- Include more variables (volume, technical indicators, news sentiment).  
+- Tune hyperparameters (layers, neurons, learning rate, epochs).  
+- Test hybrid architectures (CNN+LSTM, Transformer for time series).  
+- Implement temporal cross-validation.
 
-- Probar arquitecturas híbridas (CNN+LSTM, Transformer para series temporales).
+## Disclaimer
 
-- Validación cruzada temporal.
+This project is for academic and educational purposes only. It does not constitute financial advice or investment recommendation.
 
-## Advertencia
-Este proyecto es únicamente con fines académicos y educativos. No constituye asesoría financiera ni recomendación de inversión.
+## Author
 
-## Autor
-Este repositorio fue desarrollado como parte del curso **Aprendizaje Automático** durante el semestre 2025, por **Julio Lara** de la carrera de Ingeniería en Sistemas/Tecnología de la Universidad Tecnológica de Panamá (UTP).
+This repository was developed as part of the course **Aprendizaje Automático** during the 2025 semester by **Julio Lara**, from the **Ingeniería en Sistemas/Tecnología** program at the **Universidad Tecnológica de Panamá (UTP)**.
 
