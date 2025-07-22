@@ -89,3 +89,6 @@ This project is for academic and educational purposes only. It does not constitu
 
 This repository was developed as part of the course **Aprendizaje Automático** during the 2025 semester by **Julio Lara**, from the **Ingeniería en Sistemas/Tecnología** program at the **Universidad Tecnológica de Panamá (UTP)**.
 
+---
+
+> **Note**: This project was originally developed in Spanish. The README is written in English for documentation and sharing purposes.
