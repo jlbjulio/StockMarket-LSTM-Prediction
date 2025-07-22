@@ -86,8 +86,5 @@ El notebook genera predicciones sobre precios futuros y las compara con los valo
 Este proyecto es únicamente con fines académicos y educativos. No constituye asesoría financiera ni recomendación de inversión.
 
 ## Autor
-Julio Lara
-Estudiante de Ingeniería en Sistemas y Computación
-Universidad Tecnológica de Panamá (UTP)
-Materia: Aprendizaje Automático
+Este repositorio fue desarrollado como parte del curso **Aprendizaje Automático** durante el semestre 2025, por **Julio Lara** de la carrera de Ingeniería en Sistemas/Tecnología de la Universidad Tecnológica de Panamá (UTP).
 
