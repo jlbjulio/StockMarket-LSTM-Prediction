@@ -81,13 +81,6 @@ The notebook generates predictions of future prices and compares them with actua
 - Test hybrid architectures (CNN+LSTM, Transformer for time series).  
 - Implement temporal cross-validation.
 
-## Disclaimer
-
-This project is for academic and educational purposes only. It does not constitute financial advice or investment recommendation.
-
-## Author
-
-This repository was developed as part of the course **Aprendizaje Automático** by **Julio Lara**, from the **Licenciatura en Ingeniería de Sistemas y Computación** career at the **Universidad Tecnológica de Panamá (UTP)**.
 
 ---
 
