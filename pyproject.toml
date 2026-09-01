@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stock-market-lstm"
+version = "1.0.0"
+description = "Leakage-safe LSTM pipeline for next-session stock return forecasting"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Julio" }]
+dependencies = [
+    "joblib>=1.3,<2",
+    "matplotlib>=3.8,<4",
+    "numpy>=1.26,<3",
+    "pandas>=2.1,<3",
+    "scikit-learn>=1.4,<2",
+    "torch>=2.2,<3",
+    "yfinance>=0.2.54,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyterlab>=4,<5",
+    "pytest>=8,<9",
+    "ruff>=0.9,<1",
+]
+
+[project.scripts]
+stock-lstm = "stock_lstm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
