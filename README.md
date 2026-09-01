@@ -1,6 +1,6 @@
 # StockMarket-LSTM-Prediction
 
-This project focuses on stock market prediction using LSTM (Long Short-Term Memory) neural networks, applied to time series of financial data. It was developed as part of an academic project for the course **Aprendizaje Automático** at the **Universidad Tecnológica de Panamá (UTP)**.
+This project focuses on stock market prediction using LSTM (Long Short-Term Memory) neural networks, applied to time series of financial data. It was developed as part of an academic project for the course .
 
 ## Description
 
