@@ -1,11 +1,8 @@
 # Stock Market LSTM Prediction
 
-A Machine Learning project that uses an LSTM neural network to estimate the closing
-price of a stock for the next trading session.
+A time-series forecasting project that uses a Long Short-Term Memory (LSTM) neural network to predict a stock's closing price for the next trading session.
 
-The project can download market data automatically, train the model, compare its results with
-a simple reference prediction, create charts, and save everything needed to make another
-prediction later. You do not need to edit the source code to use it.
+The project provides an end-to-end workflow for market data processing, feature engineering, model training, evaluation, and forecasting. It compares the LSTM's predictions against a simple baseline and saves the trained model, metrics, predictions, and experiment configuration for later use.
 
 > This project is for learning and experimentation. Its predictions are not financial advice.
 
