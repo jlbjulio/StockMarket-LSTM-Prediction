@@ -1,6 +1,6 @@
 # Stock Market LSTM Prediction
 
-A complete Machine Learning project that uses an LSTM neural network to estimate the closing
+A Machine Learning project that uses an LSTM neural network to estimate the closing
 price of a stock for the next trading session.
 
 The project can download market data automatically, train the model, compare its results with
